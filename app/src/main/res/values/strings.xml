@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="splash_btn">Get Started</string>
+    <string name="home_category">Category name</string>
+    <string name="home_recipe">All Recipes</string>
+    <string name="fab">FAB</string>
+    <string name="input_submit">Submit</string>
+</resources>
