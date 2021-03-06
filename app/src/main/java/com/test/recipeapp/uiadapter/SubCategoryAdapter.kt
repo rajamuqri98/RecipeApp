@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.item_rv_main_category.view.*
 
 class SubCategoryAdapter: RecyclerView.Adapter<SubCategoryAdapter.RecipeViewHolder>() {
 
-    var listener: SubCategoryAdapter.OnItemClickListener? = null
+    var listener: OnItemClickListener? = null
     var ctx : Context? = null
     var arrSubCategory = ArrayList<MealsItems>()
     class RecipeViewHolder(view: View): RecyclerView.ViewHolder(view){
@@ -32,7 +32,7 @@ class SubCategoryAdapter: RecyclerView.Adapter<SubCategoryAdapter.RecipeViewHold
         return arrSubCategory.size
     }
 
-    fun setClickListener(listener1: SubCategoryAdapter.OnItemClickListener){
+    fun setClickListener(listener1: OnItemClickListener){
         listener = listener1
     }
 

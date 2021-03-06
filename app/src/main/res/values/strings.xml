@@ -5,4 +5,14 @@
     <string name="home_recipe">All Recipes</string>
     <string name="fab">FAB</string>
     <string name="input_submit">Submit</string>
+    <string name="fab_home">FAB_Home</string>
+    <string name="new_meal">Meal name</string>
+    <string name="add_new">Save Recipe</string>
+    <string name="meal_name">Meal name</string>
+    <string name="_30_min">30 min</string>
+    <string name="_247_cals">247 cals</string>
+    <string name="_3_persons">3 persons</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="meal_category">Meal Category</string>
 </resources>

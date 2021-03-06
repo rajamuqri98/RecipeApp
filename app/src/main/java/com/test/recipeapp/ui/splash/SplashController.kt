@@ -95,7 +95,6 @@ class SplashController(parent: SplashActivity) {
                     )
                     RecipeDatabase.getDatabase(activity)
                         .recipeDao().insertMealItems(mealItemModel)
-                    // Log.d("mealData", arr.toString())
                 }
                 activity.btnGetStarted.visibility = View.VISIBLE
             }
